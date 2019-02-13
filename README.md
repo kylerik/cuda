@@ -21,6 +21,10 @@ Here is a list of my primary skills:
 * 3D Modeling
 * Blah, blah, blah
 
+#### Contacts & Social Media
+
+* [:computer: My Homepage](https://www.georgebrown.ca/) 
+
 ## Markdown
 
 Markdown is a shortform way to write HTML.
