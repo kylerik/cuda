@@ -1,18 +1,35 @@
 body {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(10, 75px);
-  font-style: ;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 75px);
+  font-family: "Titillium Web", sans-serif;
+  background-color: #f5f5f5;
 }
 
 header {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(9, 1fr);
   grid-row: 1;
+  background-color: rgb(87, 86, 86);
+  padding: 6px;
 }
 
-img {
+header .gbc {
   width: 100px;
+}
+
+div .dropdown {
+  width: 30px;
+}
+
+button {
+  background-color: #fbb034;
+  border-radius: 20%;
+}
+
+.dropButton {
+  margin-top: 10px;
+  margin-left: 1em;
 }
 
 h1 {
@@ -25,38 +42,50 @@ select {
   height: 46px;
   padding: 1em;
   margin: 0.5em;
+  border-radius: 7%;
+  font-family: "Titillium Web", sans-serif;
 }
 
 input {
   width: 100px;
   height: 40px;
   margin: 0.5em;
+  border-radius: 7%;
 }
 
 .titles {
   display: grid;
-  grid-template-columns: repeat(10, 125px);
+  grid-template-columns: repeat(8, 130px);
   grid-row: 2;
+  margin-left: 135px;
 }
 
 .row1 {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(9, 130px);
   grid-row: 3;
   margin-left: 0.5em;
 }
 
 .row2 {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(9, 130px);
   grid-row: 4;
   margin-left: 0.5em;
 }
 
 .row3 {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(9, 130px);
   grid-row: 5;
   margin-left: 0.5em;
-  background-color: ;
+}
+
+/* -------------------- DROPDOWN MENU---------------------*/
+
+.dropTitles {
+  display: grid;
+  grid-template-columns: repeat(10, 130px);
+  grid-row: 2;
+  margin-left: 0.5em;
 }
