@@ -56,6 +56,15 @@ input {
   border-radius: 7%;
 }
 
+.lowV {
+  background-color: rgb(80, 128, 80);
+}
+.medV {
+  background-color: rgb(238, 238, 96);
+}
+.hiV {
+  background-color: tomato;
+}
 /*--------ROWS/CONTENT-------------------*/
 
 .titles {
@@ -65,25 +74,13 @@ input {
   margin-left: 135px;
 }
 
-.row1 {
+.row {
   display: grid;
   grid-template-columns: repeat(9, 130px);
-  grid-row: 3;
   margin-left: 0.5em;
-}
-
-.row2 {
-  display: grid;
-  grid-template-columns: repeat(9, 130px);
-  grid-row: 4;
-  margin-left: 0.5em;
-}
-
-.row3 {
-  display: grid;
-  grid-template-columns: repeat(9, 130px);
-  grid-row: 5;
-  margin-left: 0.5em;
+  margin-top: 1em;
+  box-shadow: 0 0 0.5em black;
+  border-radius: 5px;
 }
 
 /* -------------------- DROPDOWN MENU---------------------*/
