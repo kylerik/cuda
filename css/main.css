@@ -35,6 +35,13 @@ button {
   margin-left: 1em;
 }
 
+.newButton {
+  display: ;
+  grid-row: 5;
+  margin-top: 10px;
+  margin-left: 1em;
+}
+
 h1 {
   font-size: 18px;
   margin-left: 1em;
@@ -78,6 +85,15 @@ input {
   display: grid;
   grid-template-columns: repeat(9, 130px);
   grid-row: 3;
+  margin-left: 0.5em;
+  margin-top: 1em;
+  box-shadow: 0 0 0.5em black;
+  border-radius: 5px;
+}
+.row2 {
+  display: grid;
+  grid-template-columns: repeat(9, 130px);
+  grid-row: 4;
   margin-left: 0.5em;
   margin-top: 1em;
   box-shadow: 0 0 0.5em black;

@@ -1,44 +1,35 @@
-let assignments = [
-  {
-    class: "semiotics",
-    priority: "med",
-    grade: "twenty",
-    complete: "half",
-    week: "four"
-  },
-  {
-    class: "3dVis",
-    priority: "low",
-    grade: "five",
-    complete: "none",
-    week: "four"
-  },
-  {
-    class: "semiotics",
-    priority: "low",
-    grade: "five",
-    complete: "half",
-    week: "ten"
-  }
+var assign1 = document.getElementById('assign')
+let newAss = document.getElementById('newAssignment');
+
+
+ let newAssignment = [
+  { id: 0, name:`#assign1` },
+  { id: 1, name: "assign1" },
+  { id: 2, name: "finish homework" },
+
 ];
 
-// let dropdown1 = {
-//   task: `none`
-// };
-
-// let dropdown2 = {
-//   task: `justStarted`
-// };
 
 // const tiles = [`assignment1`, `assignment2`, `assignment3`];
 // console.log(tiles);
+//newAssignment.style.visibilty = `hidden`
 
-let htmlOutput = tiles
-  .map(
-    currentTile => `
 
-    `
-  )
-  .join("");
+//button functionality
+let btnElement = document.getElementById('newTi');
+btnElement.onclick =  createNewTile;
 
-document.getElementById("tiles").innerHTML = htmlOutput;
+
+function createNewTile () {
+
+  console.log(`blahblah`);
+  // creating a new tile
+  newAss.setAttribute('class', 'row2');
+// setting up the array
+
+  let htmlOutput = newAssignment.map(tiles => `<p> ${tiles.name}</p>`).join('');
+  document.getElementById("newAssignment").innerHTML = htmlOutput;
+}
+
+
+createNewTile ()
