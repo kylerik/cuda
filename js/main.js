@@ -4,10 +4,9 @@ let newAss = document.getElementById('newAssignment');
 
 
  let newAssignment = [
-  { id: 0, name: `who` },
-  { id: 1, name: "assign1" },
-  { id: 2, name: "finish homework" },
-
+  { id: 0, name: `this` },
+  { id: 1, name: "that" },
+  { id: 2, name: "another thing" },
 ];
 
 

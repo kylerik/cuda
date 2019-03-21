@@ -100,6 +100,9 @@ input {
   box-shadow: 0 0 0.5em black;
   border-radius: 5px;
 }
+.wubWub {
+  display: none;
+}
 
 /* -------------------- DROPDOWN MENU---------------------*/
 
